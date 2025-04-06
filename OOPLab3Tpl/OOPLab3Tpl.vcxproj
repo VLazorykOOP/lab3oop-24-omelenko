@@ -139,10 +139,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Classes\Circle.cpp" />
+    <ClCompile Include="Classes\ComplexNum.cpp" />
+    <ClCompile Include="Classes\Matrix.cpp" />
+    <ClCompile Include="Classes\Vector.cpp" />
     <ClCompile Include="Lab3Example.cpp" />
     <ClCompile Include="OOPLab3Tpl.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Classes\Circle.h" />
+    <ClInclude Include="Classes\ComplexNum.h" />
+    <ClInclude Include="Classes\Matrix.h" />
+    <ClInclude Include="Classes\Vector.h" />
     <ClInclude Include="Lab3Example.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
