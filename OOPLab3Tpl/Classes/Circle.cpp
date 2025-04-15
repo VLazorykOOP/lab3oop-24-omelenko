@@ -6,6 +6,18 @@
 
 using namespace std;
 
+Circle::Circle(double r)
+{
+    radius = r;
+    color = "White";
+}
+
+Circle::Circle(double r, string c)
+{
+    radius = r;
+    color = c;
+}
+
 void Circle::Print()
 {
     cout << "Radius: " << radius << endl;

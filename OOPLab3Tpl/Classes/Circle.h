@@ -7,6 +7,10 @@ class Circle {
         double radius;
         string color;
     public:
+        Circle() {};
+        Circle(double r);
+        Circle(double r, string c);
+
         void Print();
 
         double Area();
